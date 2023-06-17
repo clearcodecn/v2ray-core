@@ -1,0 +1,40 @@
+package blackhole_test
+
+import (
+	"context"
+	"testing"
+
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/common/buf"
+	"github.com/clearcodecn/v2ray-core/common/serial"
+	"github.com/clearcodecn/v2ray-core/proxy/blackhole"
+	"github.com/clearcodecn/v2ray-core/transport"
+	"github.com/clearcodecn/v2ray-core/transport/pipe"
+)
+
+func TestBlackHoleHTTPResponse(t *testing.T) {
+	handler, err := blackhole.New(context.Background(), &blackhole.Config{
+		Response: serial.ToTypedMessage(&blackhole.HTTPResponse{}),
+	})
+	common.Must(err)
+
+	reader, writer := pipe.New(pipe.WithoutSizeLimit())
+
+	readerError := make(chan error)
+	var mb buf.MultiBuffer
+	go func() {
+		b, e := reader.ReadMultiBuffer()
+		mb = b
+		readerError <- e
+	}()
+
+	link := transport.Link{
+		Reader: reader,
+		Writer: writer,
+	}
+	common.Must(handler.Process(context.Background(), &link, nil))
+	common.Must(<-readerError)
+	if mb.IsEmpty() {
+		t.Error("expect http response, but nothing")
+	}
+}
