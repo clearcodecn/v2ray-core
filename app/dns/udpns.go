@@ -10,16 +10,16 @@ import (
 	"time"
 
 	"golang.org/x/net/dns/dnsmessage"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/protocol/dns"
-	udp_proto "v2ray.com/core/common/protocol/udp"
-	"v2ray.com/core/common/session"
-	"v2ray.com/core/common/signal/pubsub"
-	"v2ray.com/core/common/task"
-	dns_feature "v2ray.com/core/features/dns"
-	"v2ray.com/core/features/routing"
-	"v2ray.com/core/transport/internet/udp"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/net"
+	"github.com/clearcodecn/v2ray/common/protocol/dns"
+	udp_proto "github.com/clearcodecn/v2ray/common/protocol/udp"
+	"github.com/clearcodecn/v2ray/common/session"
+	"github.com/clearcodecn/v2ray/common/signal/pubsub"
+	"github.com/clearcodecn/v2ray/common/task"
+	dns_feature "github.com/clearcodecn/v2ray/features/dns"
+	"github.com/clearcodecn/v2ray/features/routing"
+	"github.com/clearcodecn/v2ray/transport/internet/udp"
 )
 
 type ClassicNameServer struct {

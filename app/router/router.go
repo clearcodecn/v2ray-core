@@ -7,13 +7,13 @@ package router
 import (
 	"context"
 
-	"v2ray.com/core"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/session"
-	"v2ray.com/core/features/dns"
-	"v2ray.com/core/features/outbound"
-	"v2ray.com/core/features/routing"
+	"github.com/clearcodecn/v2ray"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/net"
+	"github.com/clearcodecn/v2ray/common/session"
+	"github.com/clearcodecn/v2ray/features/dns"
+	"github.com/clearcodecn/v2ray/features/outbound"
+	"github.com/clearcodecn/v2ray/features/routing"
 )
 
 func init() {

@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"v2ray.com/core/common/buf"
-	. "v2ray.com/core/transport/internet/kcp"
+	"github.com/clearcodecn/v2ray/common/buf"
+	. "github.com/clearcodecn/v2ray/transport/internet/kcp"
 )
 
 type NoOpCloser int

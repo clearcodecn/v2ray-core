@@ -1,7 +1,7 @@
 package transport
 
 import (
-	"v2ray.com/core/transport/internet"
+	"github.com/clearcodecn/v2ray/transport/internet"
 )
 
 // Apply applies this Config.

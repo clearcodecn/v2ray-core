@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"sync"
 
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/protocol"
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/wire"
+	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/protocol"
+	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/wire"
 )
 
 type incomingUniStreamsMap struct {

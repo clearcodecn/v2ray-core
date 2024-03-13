@@ -11,11 +11,11 @@ import (
 	"strings"
 
 	"golang.org/x/sys/unix"
-	
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/transport/internet"
-	"v2ray.com/core/transport/internet/tls"
+
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/net"
+	"github.com/clearcodecn/v2ray/transport/internet"
+	"github.com/clearcodecn/v2ray/transport/internet/tls"
 )
 
 type Listener struct {

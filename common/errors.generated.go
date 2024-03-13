@@ -1,6 +1,6 @@
 package common
 
-import "v2ray.com/core/common/errors"
+import "github.com/clearcodecn/v2ray/common/errors"
 
 type errPathObjHolder struct{}
 

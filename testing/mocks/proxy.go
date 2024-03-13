@@ -8,10 +8,10 @@ import (
 	context "context"
 	gomock "github.com/golang/mock/gomock"
 	reflect "reflect"
-	net "v2ray.com/core/common/net"
-	routing "v2ray.com/core/features/routing"
-	transport "v2ray.com/core/transport"
-	internet "v2ray.com/core/transport/internet"
+	net "github.com/clearcodecn/v2ray/common/net"
+	routing "github.com/clearcodecn/v2ray/features/routing"
+	transport "github.com/clearcodecn/v2ray/transport"
+	internet "github.com/clearcodecn/v2ray/transport/internet"
 )
 
 // ProxyInbound is a mock of Inbound interface

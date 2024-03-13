@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 
 	"github.com/golang/protobuf/proto"
-	"v2ray.com/core/common/protocol"
-	"v2ray.com/core/common/serial"
-	"v2ray.com/core/proxy/socks"
+	"github.com/clearcodecn/v2ray/common/protocol"
+	"github.com/clearcodecn/v2ray/common/serial"
+	"github.com/clearcodecn/v2ray/proxy/socks"
 )
 
 type SocksAccount struct {

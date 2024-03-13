@@ -8,15 +8,15 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/buf"
-	"v2ray.com/core/common/mux"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/session"
-	"v2ray.com/core/common/task"
-	"v2ray.com/core/features/outbound"
-	"v2ray.com/core/transport"
-	"v2ray.com/core/transport/pipe"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/buf"
+	"github.com/clearcodecn/v2ray/common/mux"
+	"github.com/clearcodecn/v2ray/common/net"
+	"github.com/clearcodecn/v2ray/common/session"
+	"github.com/clearcodecn/v2ray/common/task"
+	"github.com/clearcodecn/v2ray/features/outbound"
+	"github.com/clearcodecn/v2ray/transport"
+	"github.com/clearcodecn/v2ray/transport/pipe"
 )
 
 type Portal struct {

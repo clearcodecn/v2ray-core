@@ -8,9 +8,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/net"
-	. "v2ray.com/core/common/protocol/http"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/net"
+	. "github.com/clearcodecn/v2ray/common/protocol/http"
 )
 
 func TestParseXForwardedFor(t *testing.T) {

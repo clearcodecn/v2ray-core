@@ -9,9 +9,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"v2ray.com/core/common"
-	. "v2ray.com/core/common/buf"
-	"v2ray.com/core/transport/pipe"
+	"github.com/clearcodecn/v2ray/common"
+	. "github.com/clearcodecn/v2ray/common/buf"
+	"github.com/clearcodecn/v2ray/transport/pipe"
 )
 
 func TestWriter(t *testing.T) {

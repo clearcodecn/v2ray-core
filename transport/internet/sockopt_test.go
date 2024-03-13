@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/buf"
-	"v2ray.com/core/testing/servers/tcp"
-	. "v2ray.com/core/transport/internet"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/buf"
+	"github.com/clearcodecn/v2ray/testing/servers/tcp"
+	. "github.com/clearcodecn/v2ray/transport/internet"
 )
 
 func TestTCPFastOpen(t *testing.T) {

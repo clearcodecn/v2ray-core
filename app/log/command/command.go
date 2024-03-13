@@ -9,9 +9,9 @@ import (
 
 	grpc "google.golang.org/grpc"
 
-	"v2ray.com/core"
-	"v2ray.com/core/app/log"
-	"v2ray.com/core/common"
+	"github.com/clearcodecn/v2ray"
+	"github.com/clearcodecn/v2ray/app/log"
+	"github.com/clearcodecn/v2ray/common"
 )
 
 type LoggerServer struct {

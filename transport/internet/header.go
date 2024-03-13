@@ -4,7 +4,7 @@ import (
 	"context"
 	"net"
 
-	"v2ray.com/core/common"
+	"github.com/clearcodecn/v2ray/common"
 )
 
 type PacketHeader interface {

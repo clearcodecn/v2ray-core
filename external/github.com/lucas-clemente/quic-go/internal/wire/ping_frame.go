@@ -3,7 +3,7 @@ package wire
 import (
 	"bytes"
 
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/protocol"
+	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/protocol"
 )
 
 // A PingFrame is a PING frame

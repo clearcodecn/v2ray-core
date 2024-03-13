@@ -3,8 +3,8 @@ package policy
 import (
 	"context"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/features/policy"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/features/policy"
 )
 
 // Instance is an instance of Policy manager.

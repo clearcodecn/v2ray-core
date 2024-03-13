@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/binary"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/dice"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/dice"
 )
 
 type UTP struct {

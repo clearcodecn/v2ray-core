@@ -5,8 +5,8 @@ import (
 	"errors"
 	"strings"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/net"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/net"
 )
 
 type version byte

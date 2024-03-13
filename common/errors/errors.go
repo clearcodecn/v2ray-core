@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"strings"
 
-	"v2ray.com/core/common/log"
-	"v2ray.com/core/common/serial"
+	"github.com/clearcodecn/v2ray/common/log"
+	"github.com/clearcodecn/v2ray/common/serial"
 )
 
 type hasInnerError interface {

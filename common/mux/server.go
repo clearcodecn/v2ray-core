@@ -4,17 +4,17 @@ import (
 	"context"
 	"io"
 
-	"v2ray.com/core"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/buf"
-	"v2ray.com/core/common/errors"
-	"v2ray.com/core/common/log"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/protocol"
-	"v2ray.com/core/common/session"
-	"v2ray.com/core/features/routing"
-	"v2ray.com/core/transport"
-	"v2ray.com/core/transport/pipe"
+	"github.com/clearcodecn/v2ray"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/buf"
+	"github.com/clearcodecn/v2ray/common/errors"
+	"github.com/clearcodecn/v2ray/common/log"
+	"github.com/clearcodecn/v2ray/common/net"
+	"github.com/clearcodecn/v2ray/common/protocol"
+	"github.com/clearcodecn/v2ray/common/session"
+	"github.com/clearcodecn/v2ray/features/routing"
+	"github.com/clearcodecn/v2ray/transport"
+	"github.com/clearcodecn/v2ray/transport/pipe"
 )
 
 type Server struct {

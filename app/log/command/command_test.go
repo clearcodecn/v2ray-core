@@ -4,15 +4,15 @@ import (
 	"context"
 	"testing"
 
-	"v2ray.com/core"
-	"v2ray.com/core/app/dispatcher"
-	"v2ray.com/core/app/log"
-	. "v2ray.com/core/app/log/command"
-	"v2ray.com/core/app/proxyman"
-	_ "v2ray.com/core/app/proxyman/inbound"
-	_ "v2ray.com/core/app/proxyman/outbound"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/serial"
+	"github.com/clearcodecn/v2ray"
+	"github.com/clearcodecn/v2ray/app/dispatcher"
+	"github.com/clearcodecn/v2ray/app/log"
+	. "github.com/clearcodecn/v2ray/app/log/command"
+	"github.com/clearcodecn/v2ray/app/proxyman"
+	_ "github.com/clearcodecn/v2ray/app/proxyman/inbound"
+	_ "github.com/clearcodecn/v2ray/app/proxyman/outbound"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/serial"
 )
 
 func TestLoggerRestart(t *testing.T) {

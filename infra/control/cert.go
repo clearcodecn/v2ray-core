@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/protocol/tls/cert"
-	"v2ray.com/core/common/task"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/protocol/tls/cert"
+	"github.com/clearcodecn/v2ray/common/task"
 )
 
 type stringList []string

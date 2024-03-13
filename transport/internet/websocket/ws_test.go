@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/protocol/tls/cert"
-	"v2ray.com/core/transport/internet"
-	"v2ray.com/core/transport/internet/tls"
-	. "v2ray.com/core/transport/internet/websocket"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/net"
+	"github.com/clearcodecn/v2ray/common/protocol/tls/cert"
+	"github.com/clearcodecn/v2ray/transport/internet"
+	"github.com/clearcodecn/v2ray/transport/internet/tls"
+	. "github.com/clearcodecn/v2ray/transport/internet/websocket"
 )
 
 func Test_listenWSAndDial(t *testing.T) {

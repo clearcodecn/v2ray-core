@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/protocol"
-	"v2ray.com/core/common/serial"
-	"v2ray.com/core/common/task"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/protocol"
+	"github.com/clearcodecn/v2ray/common/serial"
+	"github.com/clearcodecn/v2ray/common/task"
 )
 
 const (

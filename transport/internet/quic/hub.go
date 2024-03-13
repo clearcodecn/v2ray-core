@@ -6,13 +6,13 @@ import (
 	"context"
 	"time"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/protocol/tls/cert"
-	"v2ray.com/core/common/signal/done"
-	quic "v2ray.com/core/external/github.com/lucas-clemente/quic-go"
-	"v2ray.com/core/transport/internet"
-	"v2ray.com/core/transport/internet/tls"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/net"
+	"github.com/clearcodecn/v2ray/common/protocol/tls/cert"
+	"github.com/clearcodecn/v2ray/common/signal/done"
+	quic "github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go"
+	"github.com/clearcodecn/v2ray/transport/internet"
+	"github.com/clearcodecn/v2ray/transport/internet/tls"
 )
 
 // Listener is an internet.Listener that listens for TCP connections.

@@ -11,10 +11,10 @@ import (
 
 	"google.golang.org/grpc"
 
-	"v2ray.com/core"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/signal/done"
-	"v2ray.com/core/features/outbound"
+	"github.com/clearcodecn/v2ray"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/signal/done"
+	"github.com/clearcodecn/v2ray/features/outbound"
 )
 
 // Commander is a V2Ray feature that provides gRPC methods to external clients.

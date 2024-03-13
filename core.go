@@ -15,7 +15,7 @@ package core
 import (
 	"runtime"
 
-	"v2ray.com/core/common/serial"
+	"github.com/clearcodecn/v2ray/common/serial"
 )
 
 var (

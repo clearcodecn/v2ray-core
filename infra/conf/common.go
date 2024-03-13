@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/protocol"
+	"github.com/clearcodecn/v2ray/common/net"
+	"github.com/clearcodecn/v2ray/common/protocol"
 )
 
 type StringList []string

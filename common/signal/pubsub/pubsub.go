@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/signal/done"
-	"v2ray.com/core/common/task"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/signal/done"
+	"github.com/clearcodecn/v2ray/common/task"
 )
 
 type Subscriber struct {

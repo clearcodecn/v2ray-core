@@ -3,7 +3,7 @@
 package udp
 
 import (
-	"v2ray.com/core/common/net"
+	"github.com/clearcodecn/v2ray/common/net"
 )
 
 func RetrieveOriginalDest(oob []byte) net.Destination {

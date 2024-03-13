@@ -4,8 +4,8 @@ import (
 	"math"
 	"time"
 
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/protocol"
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/utils"
+	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/protocol"
+	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/utils"
 )
 
 // This cubic implementation is based on the one found in Chromiums's QUIC

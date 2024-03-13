@@ -3,9 +3,9 @@ package inbound
 import (
 	"context"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/features"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/net"
+	"github.com/clearcodecn/v2ray/features"
 )
 
 // Handler is the interface for handlers that process inbound connections.

@@ -3,11 +3,11 @@ package conf_test
 import (
 	"testing"
 
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/protocol"
-	"v2ray.com/core/common/serial"
-	. "v2ray.com/core/infra/conf"
-	"v2ray.com/core/proxy/shadowsocks"
+	"github.com/clearcodecn/v2ray/common/net"
+	"github.com/clearcodecn/v2ray/common/protocol"
+	"github.com/clearcodecn/v2ray/common/serial"
+	. "github.com/clearcodecn/v2ray/infra/conf"
+	"github.com/clearcodecn/v2ray/proxy/shadowsocks"
 )
 
 func TestShadowsocksServerConfigParsing(t *testing.T) {

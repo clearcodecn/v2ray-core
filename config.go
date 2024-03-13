@@ -7,10 +7,10 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/buf"
-	"v2ray.com/core/common/cmdarg"
-	"v2ray.com/core/main/confloader"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/buf"
+	"github.com/clearcodecn/v2ray/common/cmdarg"
+	"github.com/clearcodecn/v2ray/main/confloader"
 )
 
 // ConfigFormat is a configurable format of V2Ray config file.

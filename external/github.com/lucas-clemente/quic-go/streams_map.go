@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"net"
 
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/flowcontrol"
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/handshake"
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/protocol"
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/wire"
+	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/flowcontrol"
+	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/handshake"
+	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/protocol"
+	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/wire"
 )
 
 type streamOpenErr struct{ error }

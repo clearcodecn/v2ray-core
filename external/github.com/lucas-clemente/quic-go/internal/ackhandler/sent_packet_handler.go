@@ -6,11 +6,11 @@ import (
 	"math"
 	"time"
 
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/congestion"
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/protocol"
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/qerr"
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/utils"
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/wire"
+	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/congestion"
+	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/protocol"
+	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/qerr"
+	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/utils"
+	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/wire"
 )
 
 const (

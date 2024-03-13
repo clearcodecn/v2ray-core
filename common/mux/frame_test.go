@@ -3,10 +3,10 @@ package mux_test
 import (
 	"testing"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/buf"
-	"v2ray.com/core/common/mux"
-	"v2ray.com/core/common/net"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/buf"
+	"github.com/clearcodecn/v2ray/common/mux"
+	"github.com/clearcodecn/v2ray/common/net"
 )
 
 func BenchmarkFrameWrite(b *testing.B) {

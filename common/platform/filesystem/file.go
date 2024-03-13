@@ -4,8 +4,8 @@ import (
 	"io"
 	"os"
 
-	"v2ray.com/core/common/buf"
-	"v2ray.com/core/common/platform"
+	"github.com/clearcodecn/v2ray/common/buf"
+	"github.com/clearcodecn/v2ray/common/platform"
 )
 
 type FileReaderFunc func(path string) (io.ReadCloser, error)

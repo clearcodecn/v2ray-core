@@ -6,10 +6,10 @@ import (
 	"bytes"
 	"context"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/features/routing"
-	"v2ray.com/core/transport/internet/udp"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/net"
+	"github.com/clearcodecn/v2ray/features/routing"
+	"github.com/clearcodecn/v2ray/transport/internet/udp"
 )
 
 // CreateObject creates a new object based on the given V2Ray instance and config. The V2Ray instance may be nil.

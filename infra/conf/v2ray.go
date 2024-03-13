@@ -6,11 +6,11 @@ import (
 	"os"
 	"strings"
 
-	"v2ray.com/core"
-	"v2ray.com/core/app/dispatcher"
-	"v2ray.com/core/app/proxyman"
-	"v2ray.com/core/app/stats"
-	"v2ray.com/core/common/serial"
+	"github.com/clearcodecn/v2ray"
+	"github.com/clearcodecn/v2ray/app/dispatcher"
+	"github.com/clearcodecn/v2ray/app/proxyman"
+	"github.com/clearcodecn/v2ray/app/stats"
+	"github.com/clearcodecn/v2ray/common/serial"
 )
 
 var (

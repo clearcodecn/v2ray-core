@@ -6,7 +6,7 @@ import (
 	"net"
 	"time"
 
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/protocol"
+	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/protocol"
 )
 
 const (

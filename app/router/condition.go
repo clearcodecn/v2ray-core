@@ -8,8 +8,8 @@ import (
 	"go.starlark.net/starlark"
 	"go.starlark.net/syntax"
 
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/strmatcher"
+	"github.com/clearcodecn/v2ray/common/net"
+	"github.com/clearcodecn/v2ray/common/strmatcher"
 )
 
 type Condition interface {

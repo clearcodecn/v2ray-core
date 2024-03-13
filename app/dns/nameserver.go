@@ -5,8 +5,8 @@ package dns
 import (
 	"context"
 
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/features/dns/localdns"
+	"github.com/clearcodecn/v2ray/common/net"
+	"github.com/clearcodecn/v2ray/features/dns/localdns"
 )
 
 // IPOption is an object for IP query options.

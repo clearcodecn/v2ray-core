@@ -3,8 +3,8 @@ package strmatcher_test
 import (
 	"testing"
 
-	"v2ray.com/core/common"
-	. "v2ray.com/core/common/strmatcher"
+	"github.com/clearcodecn/v2ray/common"
+	. "github.com/clearcodecn/v2ray/common/strmatcher"
 )
 
 func TestMatcher(t *testing.T) {

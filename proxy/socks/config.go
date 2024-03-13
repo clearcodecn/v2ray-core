@@ -2,7 +2,7 @@
 
 package socks
 
-import "v2ray.com/core/common/protocol"
+import "github.com/clearcodecn/v2ray/common/protocol"
 
 func (a *Account) Equals(another protocol.Account) bool {
 	if account, ok := another.(*Account); ok {

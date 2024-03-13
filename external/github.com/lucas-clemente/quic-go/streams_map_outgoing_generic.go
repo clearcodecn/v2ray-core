@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sync"
 
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/protocol"
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/qerr"
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/wire"
+	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/protocol"
+	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/qerr"
+	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/wire"
 )
 
 //go:generate genny -in $GOFILE -out streams_map_outgoing_bidi.go gen "item=streamI Item=BidiStream streamTypeGeneric=protocol.StreamTypeBidi"

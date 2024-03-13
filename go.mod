@@ -1,4 +1,4 @@
-module v2ray.com/core
+module github.com/clearcodecn/v2ray
 
 require (
 	github.com/golang/mock v1.2.0

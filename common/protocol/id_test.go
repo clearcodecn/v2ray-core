@@ -3,8 +3,8 @@ package protocol_test
 import (
 	"testing"
 
-	. "v2ray.com/core/common/protocol"
-	"v2ray.com/core/common/uuid"
+	. "github.com/clearcodecn/v2ray/common/protocol"
+	"github.com/clearcodecn/v2ray/common/uuid"
 )
 
 func TestIdEquals(t *testing.T) {

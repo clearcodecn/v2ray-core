@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
+	"github.com/clearcodecn/v2ray/v2raystart"
 	"time"
-	"v2ray.com/core/v2raystart"
 )
 
 func main() {

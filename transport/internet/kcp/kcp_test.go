@@ -10,11 +10,11 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"golang.org/x/sync/errgroup"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/errors"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/transport/internet"
-	. "v2ray.com/core/transport/internet/kcp"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/errors"
+	"github.com/clearcodecn/v2ray/common/net"
+	"github.com/clearcodecn/v2ray/transport/internet"
+	. "github.com/clearcodecn/v2ray/transport/internet/kcp"
 )
 
 func TestDialAndListen(t *testing.T) {

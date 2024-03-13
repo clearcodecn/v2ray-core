@@ -3,10 +3,10 @@
 package dns
 
 import (
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/strmatcher"
-	"v2ray.com/core/features"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/net"
+	"github.com/clearcodecn/v2ray/common/strmatcher"
+	"github.com/clearcodecn/v2ray/features"
 )
 
 // StaticHosts represents static domain-ip mapping in DNS server.

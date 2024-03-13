@@ -8,12 +8,12 @@ import (
 	"crypto/tls"
 	"sync"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/buf"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/transport/internet"
-	v2tls "v2ray.com/core/transport/internet/tls"
-	"v2ray.com/core/transport/internet/udp"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/buf"
+	"github.com/clearcodecn/v2ray/common/net"
+	"github.com/clearcodecn/v2ray/transport/internet"
+	v2tls "github.com/clearcodecn/v2ray/transport/internet/tls"
+	"github.com/clearcodecn/v2ray/transport/internet/udp"
 )
 
 type ConnectionID struct {

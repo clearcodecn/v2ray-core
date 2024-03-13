@@ -3,10 +3,10 @@ package udp
 import (
 	"context"
 
-	"v2ray.com/core/common/buf"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/protocol/udp"
-	"v2ray.com/core/transport/internet"
+	"github.com/clearcodecn/v2ray/common/buf"
+	"github.com/clearcodecn/v2ray/common/net"
+	"github.com/clearcodecn/v2ray/common/protocol/udp"
+	"github.com/clearcodecn/v2ray/transport/internet"
 )
 
 type HubOption func(h *Hub)

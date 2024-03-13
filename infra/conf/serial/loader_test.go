@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"v2ray.com/core/infra/conf/serial"
+	"github.com/clearcodecn/v2ray/infra/conf/serial"
 )
 
 func TestLoaderError(t *testing.T) {

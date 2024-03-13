@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/buf"
-	"v2ray.com/core/common/net"
-	. "v2ray.com/core/transport/internet/headers/http"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/buf"
+	"github.com/clearcodecn/v2ray/common/net"
+	. "github.com/clearcodecn/v2ray/transport/internet/headers/http"
 )
 
 func TestReaderWriter(t *testing.T) {

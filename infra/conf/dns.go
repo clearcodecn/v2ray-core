@@ -5,9 +5,9 @@ import (
 	"sort"
 	"strings"
 
-	"v2ray.com/core/app/dns"
-	"v2ray.com/core/app/router"
-	"v2ray.com/core/common/net"
+	"github.com/clearcodecn/v2ray/app/dns"
+	"github.com/clearcodecn/v2ray/app/router"
+	"github.com/clearcodecn/v2ray/common/net"
 )
 
 type NameServerConfig struct {

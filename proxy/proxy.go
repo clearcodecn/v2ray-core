@@ -8,11 +8,11 @@ package proxy
 import (
 	"context"
 
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/protocol"
-	"v2ray.com/core/features/routing"
-	"v2ray.com/core/transport"
-	"v2ray.com/core/transport/internet"
+	"github.com/clearcodecn/v2ray/common/net"
+	"github.com/clearcodecn/v2ray/common/protocol"
+	"github.com/clearcodecn/v2ray/features/routing"
+	"github.com/clearcodecn/v2ray/transport"
+	"github.com/clearcodecn/v2ray/transport/internet"
 )
 
 // An Inbound processes inbound connections.

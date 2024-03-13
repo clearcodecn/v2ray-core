@@ -7,11 +7,11 @@ import (
 
 	grpc "google.golang.org/grpc"
 
-	"v2ray.com/core"
-	"v2ray.com/core/common"
-	"v2ray.com/core/features/inbound"
-	"v2ray.com/core/features/outbound"
-	"v2ray.com/core/proxy"
+	"github.com/clearcodecn/v2ray"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/features/inbound"
+	"github.com/clearcodecn/v2ray/features/outbound"
+	"github.com/clearcodecn/v2ray/proxy"
 )
 
 // InboundOperation is the interface for operations that applies to inbound handlers.

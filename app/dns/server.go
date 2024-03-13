@@ -12,17 +12,17 @@ import (
 	"sync"
 	"time"
 
-	"v2ray.com/core"
-	"v2ray.com/core/app/router"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/errors"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/session"
-	"v2ray.com/core/common/strmatcher"
-	"v2ray.com/core/common/uuid"
-	"v2ray.com/core/features"
-	"v2ray.com/core/features/dns"
-	"v2ray.com/core/features/routing"
+	"github.com/clearcodecn/v2ray"
+	"github.com/clearcodecn/v2ray/app/router"
+	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray/common/errors"
+	"github.com/clearcodecn/v2ray/common/net"
+	"github.com/clearcodecn/v2ray/common/session"
+	"github.com/clearcodecn/v2ray/common/strmatcher"
+	"github.com/clearcodecn/v2ray/common/uuid"
+	"github.com/clearcodecn/v2ray/features"
+	"github.com/clearcodecn/v2ray/features/dns"
+	"github.com/clearcodecn/v2ray/features/routing"
 )
 
 // Server is a DNS rely server.

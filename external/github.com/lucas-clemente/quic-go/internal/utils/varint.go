@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/protocol"
+	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/protocol"
 )
 
 // taken from the QUIC draft
