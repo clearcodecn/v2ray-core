@@ -6,9 +6,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/clearcodecn/v2ray/common/platform"
-	"github.com/clearcodecn/v2ray/common/signal/done"
-	"github.com/clearcodecn/v2ray/common/signal/semaphore"
+	"github.com/clearcodecn/v2ray-core/common/platform"
+	"github.com/clearcodecn/v2ray-core/common/signal/done"
+	"github.com/clearcodecn/v2ray-core/common/signal/semaphore"
 )
 
 // Writer is the interface for writing logs.

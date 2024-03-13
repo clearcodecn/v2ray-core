@@ -4,61 +4,61 @@ import (
 	// The following are necessary as they register handlers in their init functions.
 
 	// Required features. Can't remove unless there is replacements.
-	_ "github.com/clearcodecn/v2ray/app/dispatcher"
-	_ "github.com/clearcodecn/v2ray/app/proxyman/inbound"
-	_ "github.com/clearcodecn/v2ray/app/proxyman/outbound"
+	_ "github.com/clearcodecn/v2ray-core/app/dispatcher"
+	_ "github.com/clearcodecn/v2ray-core/app/proxyman/inbound"
+	_ "github.com/clearcodecn/v2ray-core/app/proxyman/outbound"
 
 	// Default commander and all its services. This is an optional feature.
-	_ "github.com/clearcodecn/v2ray/app/commander"
-	_ "github.com/clearcodecn/v2ray/app/log/command"
-	_ "github.com/clearcodecn/v2ray/app/proxyman/command"
-	_ "github.com/clearcodecn/v2ray/app/stats/command"
+	_ "github.com/clearcodecn/v2ray-core/app/commander"
+	_ "github.com/clearcodecn/v2ray-core/app/log/command"
+	_ "github.com/clearcodecn/v2ray-core/app/proxyman/command"
+	_ "github.com/clearcodecn/v2ray-core/app/stats/command"
 
 	// Other optional features.
-	_ "github.com/clearcodecn/v2ray/app/dns"
-	_ "github.com/clearcodecn/v2ray/app/log"
-	_ "github.com/clearcodecn/v2ray/app/policy"
-	_ "github.com/clearcodecn/v2ray/app/reverse"
-	_ "github.com/clearcodecn/v2ray/app/router"
-	_ "github.com/clearcodecn/v2ray/app/stats"
+	_ "github.com/clearcodecn/v2ray-core/app/dns"
+	_ "github.com/clearcodecn/v2ray-core/app/log"
+	_ "github.com/clearcodecn/v2ray-core/app/policy"
+	_ "github.com/clearcodecn/v2ray-core/app/reverse"
+	_ "github.com/clearcodecn/v2ray-core/app/router"
+	_ "github.com/clearcodecn/v2ray-core/app/stats"
 
 	// Inbound and outbound proxies.
-	_ "github.com/clearcodecn/v2ray/proxy/blackhole"
-	_ "github.com/clearcodecn/v2ray/proxy/dns"
-	_ "github.com/clearcodecn/v2ray/proxy/dokodemo"
-	_ "github.com/clearcodecn/v2ray/proxy/freedom"
-	_ "github.com/clearcodecn/v2ray/proxy/http"
-	_ "github.com/clearcodecn/v2ray/proxy/mtproto"
-	_ "github.com/clearcodecn/v2ray/proxy/shadowsocks"
-	_ "github.com/clearcodecn/v2ray/proxy/socks"
-	_ "github.com/clearcodecn/v2ray/proxy/vmess/inbound"
-	_ "github.com/clearcodecn/v2ray/proxy/vmess/outbound"
+	_ "github.com/clearcodecn/v2ray-core/proxy/blackhole"
+	_ "github.com/clearcodecn/v2ray-core/proxy/dns"
+	_ "github.com/clearcodecn/v2ray-core/proxy/dokodemo"
+	_ "github.com/clearcodecn/v2ray-core/proxy/freedom"
+	_ "github.com/clearcodecn/v2ray-core/proxy/http"
+	_ "github.com/clearcodecn/v2ray-core/proxy/mtproto"
+	_ "github.com/clearcodecn/v2ray-core/proxy/shadowsocks"
+	_ "github.com/clearcodecn/v2ray-core/proxy/socks"
+	_ "github.com/clearcodecn/v2ray-core/proxy/vmess/inbound"
+	_ "github.com/clearcodecn/v2ray-core/proxy/vmess/outbound"
 
 	// Transports
-	_ "github.com/clearcodecn/v2ray/transport/internet/domainsocket"
-	_ "github.com/clearcodecn/v2ray/transport/internet/http"
-	_ "github.com/clearcodecn/v2ray/transport/internet/kcp"
-	_ "github.com/clearcodecn/v2ray/transport/internet/quic"
-	_ "github.com/clearcodecn/v2ray/transport/internet/tcp"
-	_ "github.com/clearcodecn/v2ray/transport/internet/tls"
-	_ "github.com/clearcodecn/v2ray/transport/internet/udp"
-	_ "github.com/clearcodecn/v2ray/transport/internet/websocket"
+	_ "github.com/clearcodecn/v2ray-core/transport/internet/domainsocket"
+	_ "github.com/clearcodecn/v2ray-core/transport/internet/http"
+	_ "github.com/clearcodecn/v2ray-core/transport/internet/kcp"
+	_ "github.com/clearcodecn/v2ray-core/transport/internet/quic"
+	_ "github.com/clearcodecn/v2ray-core/transport/internet/tcp"
+	_ "github.com/clearcodecn/v2ray-core/transport/internet/tls"
+	_ "github.com/clearcodecn/v2ray-core/transport/internet/udp"
+	_ "github.com/clearcodecn/v2ray-core/transport/internet/websocket"
 
 	// Transport headers
-	_ "github.com/clearcodecn/v2ray/transport/internet/headers/http"
-	_ "github.com/clearcodecn/v2ray/transport/internet/headers/noop"
-	_ "github.com/clearcodecn/v2ray/transport/internet/headers/srtp"
-	_ "github.com/clearcodecn/v2ray/transport/internet/headers/tls"
-	_ "github.com/clearcodecn/v2ray/transport/internet/headers/utp"
-	_ "github.com/clearcodecn/v2ray/transport/internet/headers/wechat"
-	_ "github.com/clearcodecn/v2ray/transport/internet/headers/wireguard"
+	_ "github.com/clearcodecn/v2ray-core/transport/internet/headers/http"
+	_ "github.com/clearcodecn/v2ray-core/transport/internet/headers/noop"
+	_ "github.com/clearcodecn/v2ray-core/transport/internet/headers/srtp"
+	_ "github.com/clearcodecn/v2ray-core/transport/internet/headers/tls"
+	_ "github.com/clearcodecn/v2ray-core/transport/internet/headers/utp"
+	_ "github.com/clearcodecn/v2ray-core/transport/internet/headers/wechat"
+	_ "github.com/clearcodecn/v2ray-core/transport/internet/headers/wireguard"
 
 	// JSON config support. Choose only one from the two below.
 	// The following line loads JSON from v2ctl
-	_ "github.com/clearcodecn/v2ray/main/json"
+	_ "github.com/clearcodecn/v2ray-core/main/json"
 	// The following line loads JSON internally
 	// _ "v2ray.com/core/main/jsonem"
 
 	// Load config from file or http(s)
-	_ "github.com/clearcodecn/v2ray/main/confloader/external"
+	_ "github.com/clearcodecn/v2ray-core/main/confloader/external"
 )

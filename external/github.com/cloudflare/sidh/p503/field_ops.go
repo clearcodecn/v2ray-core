@@ -1,7 +1,7 @@
 package p503
 
 import (
-	. "github.com/clearcodecn/v2ray/external/github.com/cloudflare/sidh/internal/isogeny"
+	. "github.com/clearcodecn/v2ray-core/external/github.com/cloudflare/sidh/internal/isogeny"
 )
 
 type fp503Ops struct{}

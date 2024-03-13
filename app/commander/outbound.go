@@ -6,10 +6,10 @@ import (
 	"context"
 	"sync"
 
-	"github.com/clearcodecn/v2ray/common"
-	"github.com/clearcodecn/v2ray/common/net"
-	"github.com/clearcodecn/v2ray/common/signal/done"
-	"github.com/clearcodecn/v2ray/transport"
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/common/net"
+	"github.com/clearcodecn/v2ray-core/common/signal/done"
+	"github.com/clearcodecn/v2ray-core/transport"
 )
 
 // OutboundListener is a net.Listener for listening gRPC connections.

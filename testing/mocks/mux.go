@@ -7,7 +7,7 @@ package mocks
 import (
 	gomock "github.com/golang/mock/gomock"
 	reflect "reflect"
-	mux "github.com/clearcodecn/v2ray/common/mux"
+	mux "github.com/clearcodecn/v2ray-core/common/mux"
 )
 
 // MuxClientWorkerFactory is a mock of ClientWorkerFactory interface

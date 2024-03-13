@@ -1,8 +1,8 @@
 package udp
 
 import (
-	"github.com/clearcodecn/v2ray/common"
-	"github.com/clearcodecn/v2ray/transport/internet"
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/transport/internet"
 )
 
 func init() {

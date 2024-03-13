@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/clearcodecn/v2ray/common"
-	. "github.com/clearcodecn/v2ray/infra/conf"
+	"github.com/clearcodecn/v2ray-core/common"
+	. "github.com/clearcodecn/v2ray-core/infra/conf"
 )
 
 func loadJSON(creator func() Buildable) func(string) (proto.Message, error) {

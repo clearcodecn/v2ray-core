@@ -14,17 +14,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	dns_feature "github.com/clearcodecn/v2ray/features/dns"
+	dns_feature "github.com/clearcodecn/v2ray-core/features/dns"
 
 	"golang.org/x/net/dns/dnsmessage"
-	"github.com/clearcodecn/v2ray/common"
-	"github.com/clearcodecn/v2ray/common/net"
-	"github.com/clearcodecn/v2ray/common/protocol/dns"
-	"github.com/clearcodecn/v2ray/common/session"
-	"github.com/clearcodecn/v2ray/common/signal/pubsub"
-	"github.com/clearcodecn/v2ray/common/task"
-	"github.com/clearcodecn/v2ray/features/routing"
-	"github.com/clearcodecn/v2ray/transport/internet"
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/common/net"
+	"github.com/clearcodecn/v2ray-core/common/protocol/dns"
+	"github.com/clearcodecn/v2ray-core/common/session"
+	"github.com/clearcodecn/v2ray-core/common/signal/pubsub"
+	"github.com/clearcodecn/v2ray-core/common/task"
+	"github.com/clearcodecn/v2ray-core/features/routing"
+	"github.com/clearcodecn/v2ray-core/transport/internet"
 )
 
 // DoHNameServer implimented DNS over HTTPS (RFC8484) Wire Format,

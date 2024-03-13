@@ -3,7 +3,7 @@ package policy
 import (
 	"time"
 
-	"github.com/clearcodecn/v2ray/features/policy"
+	"github.com/clearcodecn/v2ray-core/features/policy"
 )
 
 // Duration converts Second to time.Duration.

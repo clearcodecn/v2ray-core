@@ -11,7 +11,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray-core/common"
 )
 
 var protocMap = map[string]string{

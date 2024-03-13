@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/binary"
 
-	"github.com/clearcodecn/v2ray/common"
-	"github.com/clearcodecn/v2ray/common/dice"
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/common/dice"
 )
 
 type SRTP struct {

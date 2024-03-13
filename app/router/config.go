@@ -3,8 +3,8 @@
 package router
 
 import (
-	"github.com/clearcodecn/v2ray/common/net"
-	"github.com/clearcodecn/v2ray/features/outbound"
+	"github.com/clearcodecn/v2ray-core/common/net"
+	"github.com/clearcodecn/v2ray-core/features/outbound"
 )
 
 // CIDRList is an alias of []*CIDR to provide sort.Interface.

@@ -7,11 +7,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/ackhandler"
-	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/handshake"
-	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/utils"
-	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/wire"
+	"github.com/clearcodecn/v2ray-core/external/github.com/lucas-clemente/quic-go/internal/ackhandler"
+	"github.com/clearcodecn/v2ray-core/external/github.com/lucas-clemente/quic-go/internal/handshake"
+	"github.com/clearcodecn/v2ray-core/external/github.com/lucas-clemente/quic-go/internal/protocol"
+	"github.com/clearcodecn/v2ray-core/external/github.com/lucas-clemente/quic-go/internal/utils"
+	"github.com/clearcodecn/v2ray-core/external/github.com/lucas-clemente/quic-go/internal/wire"
 )
 
 type packer interface {

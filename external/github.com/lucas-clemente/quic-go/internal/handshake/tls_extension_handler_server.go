@@ -3,10 +3,10 @@ package handshake
 import (
 	"errors"
 
-	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/qerr"
-	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/utils"
-	"github.com/clearcodecn/v2ray/external/github.com/marten-seemann/qtls"
+	"github.com/clearcodecn/v2ray-core/external/github.com/lucas-clemente/quic-go/internal/protocol"
+	"github.com/clearcodecn/v2ray-core/external/github.com/lucas-clemente/quic-go/internal/qerr"
+	"github.com/clearcodecn/v2ray-core/external/github.com/lucas-clemente/quic-go/internal/utils"
+	"github.com/clearcodecn/v2ray-core/external/github.com/marten-seemann/qtls"
 )
 
 type extensionHandlerServer struct {

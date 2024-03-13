@@ -7,8 +7,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	. "github.com/clearcodecn/v2ray/common/errors"
-	"github.com/clearcodecn/v2ray/common/log"
+	. "github.com/clearcodecn/v2ray-core/common/errors"
+	"github.com/clearcodecn/v2ray-core/common/log"
 )
 
 func TestError(t *testing.T) {

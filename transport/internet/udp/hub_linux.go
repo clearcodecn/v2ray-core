@@ -6,7 +6,7 @@ import (
 	"syscall"
 
 	"golang.org/x/sys/unix"
-	"github.com/clearcodecn/v2ray/common/net"
+	"github.com/clearcodecn/v2ray-core/common/net"
 )
 
 func RetrieveOriginalDest(oob []byte) net.Destination {

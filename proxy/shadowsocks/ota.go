@@ -9,10 +9,10 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/clearcodecn/v2ray/common"
-	"github.com/clearcodecn/v2ray/common/buf"
-	"github.com/clearcodecn/v2ray/common/bytespool"
-	"github.com/clearcodecn/v2ray/common/serial"
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/common/buf"
+	"github.com/clearcodecn/v2ray-core/common/bytespool"
+	"github.com/clearcodecn/v2ray-core/common/serial"
 )
 
 const (

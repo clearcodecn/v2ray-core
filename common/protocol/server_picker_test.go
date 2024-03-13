@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/clearcodecn/v2ray/common/net"
-	. "github.com/clearcodecn/v2ray/common/protocol"
+	"github.com/clearcodecn/v2ray-core/common/net"
+	. "github.com/clearcodecn/v2ray-core/common/protocol"
 )
 
 func TestServerList(t *testing.T) {

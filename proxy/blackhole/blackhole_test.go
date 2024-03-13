@@ -4,12 +4,12 @@ import (
 	"context"
 	"testing"
 
-	"github.com/clearcodecn/v2ray/common"
-	"github.com/clearcodecn/v2ray/common/buf"
-	"github.com/clearcodecn/v2ray/common/serial"
-	"github.com/clearcodecn/v2ray/proxy/blackhole"
-	"github.com/clearcodecn/v2ray/transport"
-	"github.com/clearcodecn/v2ray/transport/pipe"
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/common/buf"
+	"github.com/clearcodecn/v2ray-core/common/serial"
+	"github.com/clearcodecn/v2ray-core/proxy/blackhole"
+	"github.com/clearcodecn/v2ray-core/transport"
+	"github.com/clearcodecn/v2ray-core/transport/pipe"
 )
 
 func TestBlackholeHTTPResponse(t *testing.T) {

@@ -1,9 +1,9 @@
 package sidh
 
 import (
-	. "github.com/clearcodecn/v2ray/external/github.com/cloudflare/sidh/internal/isogeny"
-	p503 "github.com/clearcodecn/v2ray/external/github.com/cloudflare/sidh/p503"
-	p751 "github.com/clearcodecn/v2ray/external/github.com/cloudflare/sidh/p751"
+	. "github.com/clearcodecn/v2ray-core/external/github.com/cloudflare/sidh/internal/isogeny"
+	p503 "github.com/clearcodecn/v2ray-core/external/github.com/cloudflare/sidh/p503"
+	p751 "github.com/clearcodecn/v2ray-core/external/github.com/cloudflare/sidh/p751"
 )
 
 // Keeps mapping: SIDH prime field ID to domain parameters

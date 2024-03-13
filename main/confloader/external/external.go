@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/clearcodecn/v2ray/common/buf"
-	"github.com/clearcodecn/v2ray/common/platform/ctlcmd"
-	"github.com/clearcodecn/v2ray/main/confloader"
+	"github.com/clearcodecn/v2ray-core/common/buf"
+	"github.com/clearcodecn/v2ray-core/common/platform/ctlcmd"
+	"github.com/clearcodecn/v2ray-core/main/confloader"
 )
 
 func ConfigLoader(arg string) (out io.Reader, err error) {

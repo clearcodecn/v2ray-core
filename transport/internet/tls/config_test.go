@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/clearcodecn/v2ray/common"
-	"github.com/clearcodecn/v2ray/common/protocol/tls/cert"
-	. "github.com/clearcodecn/v2ray/transport/internet/tls"
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/common/protocol/tls/cert"
+	. "github.com/clearcodecn/v2ray-core/transport/internet/tls"
 )
 
 func TestCertificateIssuing(t *testing.T) {

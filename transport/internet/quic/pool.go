@@ -5,7 +5,7 @@ package quic
 import (
 	"sync"
 
-	"github.com/clearcodecn/v2ray/common/bytespool"
+	"github.com/clearcodecn/v2ray-core/common/bytespool"
 )
 
 var pool *sync.Pool

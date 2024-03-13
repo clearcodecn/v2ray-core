@@ -3,9 +3,9 @@ package protocol
 import (
 	"runtime"
 
-	"github.com/clearcodecn/v2ray/common/bitmask"
-	"github.com/clearcodecn/v2ray/common/net"
-	"github.com/clearcodecn/v2ray/common/uuid"
+	"github.com/clearcodecn/v2ray-core/common/bitmask"
+	"github.com/clearcodecn/v2ray-core/common/net"
+	"github.com/clearcodecn/v2ray-core/common/uuid"
 )
 
 // RequestCommand is a custom command in a proxy request.

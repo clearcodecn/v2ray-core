@@ -1,10 +1,10 @@
 package dns
 
 import (
-	"github.com/clearcodecn/v2ray/common/errors"
-	"github.com/clearcodecn/v2ray/common/net"
-	"github.com/clearcodecn/v2ray/common/serial"
-	"github.com/clearcodecn/v2ray/features"
+	"github.com/clearcodecn/v2ray-core/common/errors"
+	"github.com/clearcodecn/v2ray-core/common/net"
+	"github.com/clearcodecn/v2ray-core/common/serial"
+	"github.com/clearcodecn/v2ray-core/features"
 )
 
 // Client is a V2Ray feature for querying DNS information.

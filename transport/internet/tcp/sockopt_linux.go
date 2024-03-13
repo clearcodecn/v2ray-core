@@ -6,8 +6,8 @@ package tcp
 import (
 	"syscall"
 
-	"github.com/clearcodecn/v2ray/common/net"
-	"github.com/clearcodecn/v2ray/transport/internet"
+	"github.com/clearcodecn/v2ray-core/common/net"
+	"github.com/clearcodecn/v2ray-core/transport/internet"
 )
 
 const SO_ORIGINAL_DST = 80

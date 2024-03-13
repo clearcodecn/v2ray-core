@@ -2,7 +2,7 @@ package stats
 
 //go:generate errorgen
 
-import "github.com/clearcodecn/v2ray/features"
+import "github.com/clearcodecn/v2ray-core/features"
 
 // Counter is the interface for stats counters.
 //

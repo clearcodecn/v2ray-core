@@ -3,8 +3,8 @@
 package log
 
 import (
-	"github.com/clearcodecn/v2ray/common"
-	"github.com/clearcodecn/v2ray/common/log"
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/common/log"
 )
 
 type HandlerCreatorOptions struct {

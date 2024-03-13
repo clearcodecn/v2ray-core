@@ -5,12 +5,12 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	. "github.com/clearcodecn/v2ray/app/router"
-	"github.com/clearcodecn/v2ray/common"
-	"github.com/clearcodecn/v2ray/common/net"
-	"github.com/clearcodecn/v2ray/common/session"
-	"github.com/clearcodecn/v2ray/features/outbound"
-	"github.com/clearcodecn/v2ray/testing/mocks"
+	. "github.com/clearcodecn/v2ray-core/app/router"
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/common/net"
+	"github.com/clearcodecn/v2ray-core/common/session"
+	"github.com/clearcodecn/v2ray-core/features/outbound"
+	"github.com/clearcodecn/v2ray-core/testing/mocks"
 )
 
 type mockOutboundManager struct {

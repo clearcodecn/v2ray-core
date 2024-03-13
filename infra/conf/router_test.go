@@ -6,9 +6,9 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/clearcodecn/v2ray/app/router"
-	"github.com/clearcodecn/v2ray/common/net"
-	. "github.com/clearcodecn/v2ray/infra/conf"
+	"github.com/clearcodecn/v2ray-core/app/router"
+	"github.com/clearcodecn/v2ray-core/common/net"
+	. "github.com/clearcodecn/v2ray-core/infra/conf"
 )
 
 func TestRouterConfig(t *testing.T) {

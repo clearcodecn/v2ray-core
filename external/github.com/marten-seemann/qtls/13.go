@@ -22,7 +22,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/clearcodecn/v2ray/external/github.com/cloudflare/sidh/sidh"
+	"github.com/clearcodecn/v2ray-core/external/github.com/cloudflare/sidh/sidh"
 	"golang.org/x/crypto/curve25519"
 )
 

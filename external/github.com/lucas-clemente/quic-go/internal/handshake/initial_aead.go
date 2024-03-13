@@ -4,8 +4,8 @@ import (
 	"crypto"
 	"crypto/aes"
 
-	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/clearcodecn/v2ray/external/github.com/marten-seemann/qtls"
+	"github.com/clearcodecn/v2ray-core/external/github.com/lucas-clemente/quic-go/internal/protocol"
+	"github.com/clearcodecn/v2ray-core/external/github.com/marten-seemann/qtls"
 )
 
 var quicVersion1Salt = []byte{0xef, 0x4f, 0xb0, 0xab, 0xb4, 0x74, 0x70, 0xc4, 0x1b, 0xef, 0xcf, 0x80, 0x31, 0x33, 0x4f, 0xae, 0x48, 0x5e, 0x09, 0xa0}

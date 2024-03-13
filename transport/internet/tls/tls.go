@@ -5,8 +5,8 @@ package tls
 import (
 	"crypto/tls"
 
-	"github.com/clearcodecn/v2ray/common/buf"
-	"github.com/clearcodecn/v2ray/common/net"
+	"github.com/clearcodecn/v2ray-core/common/buf"
+	"github.com/clearcodecn/v2ray-core/common/net"
 
 	utls "github.com/refraction-networking/utls"
 )

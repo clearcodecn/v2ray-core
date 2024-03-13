@@ -1,6 +1,6 @@
 package linkedlist
 
-import "github.com/clearcodecn/v2ray/external/github.com/cheekybits/genny/generic"
+import "github.com/clearcodecn/v2ray-core/external/github.com/cheekybits/genny/generic"
 
 // Linked list implementation from the Go standard library.
 

@@ -6,11 +6,11 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/clearcodecn/v2ray/common/protocol"
+	"github.com/clearcodecn/v2ray-core/common/protocol"
 
-	"github.com/clearcodecn/v2ray/common"
-	"github.com/clearcodecn/v2ray/common/net"
-	. "github.com/clearcodecn/v2ray/infra/conf"
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/common/net"
+	. "github.com/clearcodecn/v2ray-core/infra/conf"
 )
 
 func TestStringListUnmarshalError(t *testing.T) {

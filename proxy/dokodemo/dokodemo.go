@@ -9,17 +9,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/clearcodecn/v2ray"
-	"github.com/clearcodecn/v2ray/common"
-	"github.com/clearcodecn/v2ray/common/buf"
-	"github.com/clearcodecn/v2ray/common/net"
-	"github.com/clearcodecn/v2ray/common/protocol"
-	"github.com/clearcodecn/v2ray/common/session"
-	"github.com/clearcodecn/v2ray/common/signal"
-	"github.com/clearcodecn/v2ray/common/task"
-	"github.com/clearcodecn/v2ray/features/policy"
-	"github.com/clearcodecn/v2ray/features/routing"
-	"github.com/clearcodecn/v2ray/transport/internet"
+	"github.com/clearcodecn/v2ray-core"
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/common/buf"
+	"github.com/clearcodecn/v2ray-core/common/net"
+	"github.com/clearcodecn/v2ray-core/common/protocol"
+	"github.com/clearcodecn/v2ray-core/common/session"
+	"github.com/clearcodecn/v2ray-core/common/signal"
+	"github.com/clearcodecn/v2ray-core/common/task"
+	"github.com/clearcodecn/v2ray-core/features/policy"
+	"github.com/clearcodecn/v2ray-core/features/routing"
+	"github.com/clearcodecn/v2ray-core/transport/internet"
 )
 
 func init() {

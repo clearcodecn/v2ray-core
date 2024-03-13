@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/clearcodecn/v2ray/common/platform"
-	"github.com/clearcodecn/v2ray/features"
+	"github.com/clearcodecn/v2ray-core/common/platform"
+	"github.com/clearcodecn/v2ray-core/features"
 )
 
 // Timeout contains limits for connection timeout.

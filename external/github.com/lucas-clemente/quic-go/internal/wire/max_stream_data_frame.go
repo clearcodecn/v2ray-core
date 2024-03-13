@@ -3,8 +3,8 @@ package wire
 import (
 	"bytes"
 
-	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/utils"
+	"github.com/clearcodecn/v2ray-core/external/github.com/lucas-clemente/quic-go/internal/protocol"
+	"github.com/clearcodecn/v2ray-core/external/github.com/lucas-clemente/quic-go/internal/utils"
 )
 
 // A MaxStreamDataFrame is a MAX_STREAM_DATA frame

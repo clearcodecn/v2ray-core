@@ -3,8 +3,8 @@
 package router
 
 import (
-	"github.com/clearcodecn/v2ray/common/dice"
-	"github.com/clearcodecn/v2ray/features/outbound"
+	"github.com/clearcodecn/v2ray-core/common/dice"
+	"github.com/clearcodecn/v2ray-core/features/outbound"
 )
 
 type BalancingStrategy interface {

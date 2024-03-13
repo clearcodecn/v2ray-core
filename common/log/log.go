@@ -3,7 +3,7 @@ package log // import "v2ray.com/core/common/log"
 import (
 	"sync"
 
-	"github.com/clearcodecn/v2ray/common/serial"
+	"github.com/clearcodecn/v2ray-core/common/serial"
 )
 
 // Message is the interface for all log messages.

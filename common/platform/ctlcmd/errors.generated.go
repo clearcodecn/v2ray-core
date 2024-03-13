@@ -1,6 +1,6 @@
 package ctlcmd
 
-import "github.com/clearcodecn/v2ray/common/errors"
+import "github.com/clearcodecn/v2ray-core/common/errors"
 
 type errPathObjHolder struct{}
 

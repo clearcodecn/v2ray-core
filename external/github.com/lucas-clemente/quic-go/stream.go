@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/flowcontrol"
-	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/wire"
+	"github.com/clearcodecn/v2ray-core/external/github.com/lucas-clemente/quic-go/internal/flowcontrol"
+	"github.com/clearcodecn/v2ray-core/external/github.com/lucas-clemente/quic-go/internal/protocol"
+	"github.com/clearcodecn/v2ray-core/external/github.com/lucas-clemente/quic-go/internal/wire"
 )
 
 const errorCodeStopping protocol.ApplicationErrorCode = 0

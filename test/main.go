@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/clearcodecn/v2ray/v2raystart"
+	"github.com/clearcodecn/v2ray-core/v2raystart"
 	"time"
 )
 

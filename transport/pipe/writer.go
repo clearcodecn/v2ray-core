@@ -1,7 +1,7 @@
 package pipe
 
 import (
-	"github.com/clearcodecn/v2ray/common/buf"
+	"github.com/clearcodecn/v2ray-core/common/buf"
 )
 
 // Writer is a buf.Writer that writes data into a pipe.

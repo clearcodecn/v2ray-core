@@ -3,8 +3,8 @@ package internet
 import (
 	"context"
 
-	"github.com/clearcodecn/v2ray/common/net"
-	"github.com/clearcodecn/v2ray/common/session"
+	"github.com/clearcodecn/v2ray-core/common/net"
+	"github.com/clearcodecn/v2ray-core/common/session"
 )
 
 // Dialer is the interface for dialing outbound connections.

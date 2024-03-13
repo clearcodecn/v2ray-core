@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"golang.org/x/net/dns/dnsmessage"
-	"github.com/clearcodecn/v2ray/common"
-	"github.com/clearcodecn/v2ray/common/errors"
-	"github.com/clearcodecn/v2ray/common/net"
-	dns_feature "github.com/clearcodecn/v2ray/features/dns"
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/common/errors"
+	"github.com/clearcodecn/v2ray-core/common/net"
+	dns_feature "github.com/clearcodecn/v2ray-core/features/dns"
 )
 
 // Fqdn normalize domain make sure it ends with '.'

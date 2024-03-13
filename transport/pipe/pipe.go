@@ -3,9 +3,9 @@ package pipe
 import (
 	"context"
 
-	"github.com/clearcodecn/v2ray/common/signal"
-	"github.com/clearcodecn/v2ray/common/signal/done"
-	"github.com/clearcodecn/v2ray/features/policy"
+	"github.com/clearcodecn/v2ray-core/common/signal"
+	"github.com/clearcodecn/v2ray-core/common/signal/done"
+	"github.com/clearcodecn/v2ray-core/features/policy"
 )
 
 // Option for creating new Pipes.

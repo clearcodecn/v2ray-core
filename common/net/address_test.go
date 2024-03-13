@@ -6,7 +6,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	. "github.com/clearcodecn/v2ray/common/net"
+	. "github.com/clearcodecn/v2ray-core/common/net"
 )
 
 func TestAddressProperty(t *testing.T) {

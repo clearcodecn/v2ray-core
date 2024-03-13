@@ -6,7 +6,7 @@ import (
 	"crypto/rand"
 	"io"
 
-	"github.com/clearcodecn/v2ray/common/dice"
+	"github.com/clearcodecn/v2ray-core/common/dice"
 )
 
 func (c *Control) FillInRandom() {

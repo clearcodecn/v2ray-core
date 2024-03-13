@@ -11,9 +11,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/clearcodecn/v2ray/common/buf"
-	"github.com/clearcodecn/v2ray/common/signal"
-	"github.com/clearcodecn/v2ray/common/signal/semaphore"
+	"github.com/clearcodecn/v2ray-core/common/buf"
+	"github.com/clearcodecn/v2ray-core/common/signal"
+	"github.com/clearcodecn/v2ray-core/common/signal/semaphore"
 )
 
 var (

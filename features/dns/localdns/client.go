@@ -1,8 +1,8 @@
 package localdns
 
 import (
-	"github.com/clearcodecn/v2ray/common/net"
-	"github.com/clearcodecn/v2ray/features/dns"
+	"github.com/clearcodecn/v2ray-core/common/net"
+	"github.com/clearcodecn/v2ray-core/features/dns"
 )
 
 // Client is an implementation of dns.Client, which queries localhost for DNS.

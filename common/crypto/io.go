@@ -4,7 +4,7 @@ import (
 	"crypto/cipher"
 	"io"
 
-	"github.com/clearcodecn/v2ray/common/buf"
+	"github.com/clearcodecn/v2ray-core/common/buf"
 )
 
 type CryptionReader struct {

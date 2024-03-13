@@ -3,7 +3,7 @@ package internet
 import (
 	"context"
 
-	"github.com/clearcodecn/v2ray/common/net"
+	"github.com/clearcodecn/v2ray-core/common/net"
 )
 
 var (

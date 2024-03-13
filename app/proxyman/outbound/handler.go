@@ -3,18 +3,18 @@ package outbound
 import (
 	"context"
 
-	"github.com/clearcodecn/v2ray"
-	"github.com/clearcodecn/v2ray/app/proxyman"
-	"github.com/clearcodecn/v2ray/common"
-	"github.com/clearcodecn/v2ray/common/mux"
-	"github.com/clearcodecn/v2ray/common/net"
-	"github.com/clearcodecn/v2ray/common/session"
-	"github.com/clearcodecn/v2ray/features/outbound"
-	"github.com/clearcodecn/v2ray/proxy"
-	"github.com/clearcodecn/v2ray/transport"
-	"github.com/clearcodecn/v2ray/transport/internet"
-	"github.com/clearcodecn/v2ray/transport/internet/tls"
-	"github.com/clearcodecn/v2ray/transport/pipe"
+	"github.com/clearcodecn/v2ray-core"
+	"github.com/clearcodecn/v2ray-core/app/proxyman"
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/common/mux"
+	"github.com/clearcodecn/v2ray-core/common/net"
+	"github.com/clearcodecn/v2ray-core/common/session"
+	"github.com/clearcodecn/v2ray-core/features/outbound"
+	"github.com/clearcodecn/v2ray-core/proxy"
+	"github.com/clearcodecn/v2ray-core/transport"
+	"github.com/clearcodecn/v2ray-core/transport/internet"
+	"github.com/clearcodecn/v2ray-core/transport/internet/tls"
+	"github.com/clearcodecn/v2ray-core/transport/pipe"
 )
 
 // Handler is an implements of outbound.Handler.

@@ -3,8 +3,8 @@ package conf_test
 import (
 	"testing"
 
-	"github.com/clearcodecn/v2ray/app/reverse"
-	"github.com/clearcodecn/v2ray/infra/conf"
+	"github.com/clearcodecn/v2ray-core/app/reverse"
+	"github.com/clearcodecn/v2ray-core/infra/conf"
 )
 
 func TestReverseConfig(t *testing.T) {

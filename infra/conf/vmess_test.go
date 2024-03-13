@@ -3,13 +3,13 @@ package conf_test
 import (
 	"testing"
 
-	"github.com/clearcodecn/v2ray/common/net"
-	"github.com/clearcodecn/v2ray/common/protocol"
-	"github.com/clearcodecn/v2ray/common/serial"
-	. "github.com/clearcodecn/v2ray/infra/conf"
-	"github.com/clearcodecn/v2ray/proxy/vmess"
-	"github.com/clearcodecn/v2ray/proxy/vmess/inbound"
-	"github.com/clearcodecn/v2ray/proxy/vmess/outbound"
+	"github.com/clearcodecn/v2ray-core/common/net"
+	"github.com/clearcodecn/v2ray-core/common/protocol"
+	"github.com/clearcodecn/v2ray-core/common/serial"
+	. "github.com/clearcodecn/v2ray-core/infra/conf"
+	"github.com/clearcodecn/v2ray-core/proxy/vmess"
+	"github.com/clearcodecn/v2ray-core/proxy/vmess/inbound"
+	"github.com/clearcodecn/v2ray-core/proxy/vmess/outbound"
 )
 
 func TestVMessOutbound(t *testing.T) {

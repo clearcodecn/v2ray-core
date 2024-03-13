@@ -7,11 +7,11 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/clearcodecn/v2ray/common"
-	"github.com/clearcodecn/v2ray/common/buf"
-	"github.com/clearcodecn/v2ray/common/net"
-	"github.com/clearcodecn/v2ray/transport/internet"
-	. "github.com/clearcodecn/v2ray/transport/internet/domainsocket"
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/common/buf"
+	"github.com/clearcodecn/v2ray-core/common/net"
+	"github.com/clearcodecn/v2ray-core/transport/internet"
+	. "github.com/clearcodecn/v2ray-core/transport/internet/domainsocket"
 )
 
 func TestListen(t *testing.T) {

@@ -1,6 +1,6 @@
 package features
 
-import "github.com/clearcodecn/v2ray/common"
+import "github.com/clearcodecn/v2ray-core/common"
 
 //go:generate errorgen
 

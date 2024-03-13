@@ -5,11 +5,11 @@ package json
 import (
 	"io"
 
-	"github.com/clearcodecn/v2ray"
-	"github.com/clearcodecn/v2ray/common"
-	"github.com/clearcodecn/v2ray/common/cmdarg"
-	"github.com/clearcodecn/v2ray/infra/conf/serial"
-	"github.com/clearcodecn/v2ray/main/confloader"
+	"github.com/clearcodecn/v2ray-core"
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/common/cmdarg"
+	"github.com/clearcodecn/v2ray-core/infra/conf/serial"
+	"github.com/clearcodecn/v2ray-core/main/confloader"
 )
 
 func init() {

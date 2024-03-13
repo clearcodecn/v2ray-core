@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/clearcodecn/v2ray/common"
-	. "github.com/clearcodecn/v2ray/common/task"
+	"github.com/clearcodecn/v2ray-core/common"
+	. "github.com/clearcodecn/v2ray-core/common/task"
 )
 
 func TestPeriodicTaskStop(t *testing.T) {

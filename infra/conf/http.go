@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/clearcodecn/v2ray/common/protocol"
-	"github.com/clearcodecn/v2ray/common/serial"
-	"github.com/clearcodecn/v2ray/proxy/http"
+	"github.com/clearcodecn/v2ray-core/common/protocol"
+	"github.com/clearcodecn/v2ray-core/common/serial"
+	"github.com/clearcodecn/v2ray-core/proxy/http"
 )
 
 type HttpAccount struct {

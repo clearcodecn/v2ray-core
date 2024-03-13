@@ -6,9 +6,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/clearcodecn/v2ray/common/retry"
+	"github.com/clearcodecn/v2ray-core/common/retry"
 
-	"github.com/clearcodecn/v2ray/common/buf"
+	"github.com/clearcodecn/v2ray-core/common/buf"
 )
 
 type SegmentWriter interface {

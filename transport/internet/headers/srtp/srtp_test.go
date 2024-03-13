@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/clearcodecn/v2ray/common"
-	"github.com/clearcodecn/v2ray/common/buf"
-	. "github.com/clearcodecn/v2ray/transport/internet/headers/srtp"
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/common/buf"
+	. "github.com/clearcodecn/v2ray-core/transport/internet/headers/srtp"
 )
 
 func TestSRTPWrite(t *testing.T) {

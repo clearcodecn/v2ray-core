@@ -6,14 +6,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/clearcodecn/v2ray/common"
-	"github.com/clearcodecn/v2ray/common/buf"
-	"github.com/clearcodecn/v2ray/common/net"
-	"github.com/clearcodecn/v2ray/common/protocol/udp"
-	"github.com/clearcodecn/v2ray/features/routing"
-	"github.com/clearcodecn/v2ray/transport"
-	. "github.com/clearcodecn/v2ray/transport/internet/udp"
-	"github.com/clearcodecn/v2ray/transport/pipe"
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/common/buf"
+	"github.com/clearcodecn/v2ray-core/common/net"
+	"github.com/clearcodecn/v2ray-core/common/protocol/udp"
+	"github.com/clearcodecn/v2ray-core/features/routing"
+	"github.com/clearcodecn/v2ray-core/transport"
+	. "github.com/clearcodecn/v2ray-core/transport/internet/udp"
+	"github.com/clearcodecn/v2ray-core/transport/pipe"
 )
 
 type TestDispatcher struct {

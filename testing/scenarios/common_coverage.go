@@ -7,7 +7,7 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/clearcodecn/v2ray/common/uuid"
+	"github.com/clearcodecn/v2ray-core/common/uuid"
 )
 
 func BuildV2Ray() error {

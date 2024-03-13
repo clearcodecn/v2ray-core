@@ -8,9 +8,9 @@ import (
 	"crypto/sha256"
 
 	"golang.org/x/crypto/chacha20poly1305"
-	"github.com/clearcodecn/v2ray/common"
-	"github.com/clearcodecn/v2ray/common/protocol"
-	"github.com/clearcodecn/v2ray/transport/internet"
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/common/protocol"
+	"github.com/clearcodecn/v2ray-core/transport/internet"
 )
 
 func getAuth(config *Config) (cipher.AEAD, error) {

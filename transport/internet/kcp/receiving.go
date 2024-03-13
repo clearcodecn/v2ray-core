@@ -5,7 +5,7 @@ package kcp
 import (
 	"sync"
 
-	"github.com/clearcodecn/v2ray/common/buf"
+	"github.com/clearcodecn/v2ray-core/common/buf"
 )
 
 type ReceivingWindow struct {

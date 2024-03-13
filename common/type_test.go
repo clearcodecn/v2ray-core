@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	. "github.com/clearcodecn/v2ray/common"
+	. "github.com/clearcodecn/v2ray-core/common"
 )
 
 type TConfig struct {

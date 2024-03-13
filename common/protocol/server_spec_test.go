@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/clearcodecn/v2ray/common"
-	"github.com/clearcodecn/v2ray/common/net"
-	. "github.com/clearcodecn/v2ray/common/protocol"
-	"github.com/clearcodecn/v2ray/common/uuid"
-	"github.com/clearcodecn/v2ray/proxy/vmess"
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/common/net"
+	. "github.com/clearcodecn/v2ray-core/common/protocol"
+	"github.com/clearcodecn/v2ray-core/common/uuid"
+	"github.com/clearcodecn/v2ray-core/proxy/vmess"
 )
 
 func TestAlwaysValidStrategy(t *testing.T) {

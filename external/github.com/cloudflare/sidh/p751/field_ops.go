@@ -1,6 +1,6 @@
 package p751
 
-import . "github.com/clearcodecn/v2ray/external/github.com/cloudflare/sidh/internal/isogeny"
+import . "github.com/clearcodecn/v2ray-core/external/github.com/cloudflare/sidh/internal/isogeny"
 
 // 2*p751
 var ()

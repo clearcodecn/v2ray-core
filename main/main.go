@@ -15,10 +15,10 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/clearcodecn/v2ray"
-	"github.com/clearcodecn/v2ray/common/cmdarg"
-	"github.com/clearcodecn/v2ray/common/platform"
-	_ "github.com/clearcodecn/v2ray/main/distro/all"
+	"github.com/clearcodecn/v2ray-core"
+	"github.com/clearcodecn/v2ray-core/common/cmdarg"
+	"github.com/clearcodecn/v2ray-core/common/platform"
+	_ "github.com/clearcodecn/v2ray-core/main/distro/all"
 )
 
 var (

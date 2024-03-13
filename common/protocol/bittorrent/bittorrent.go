@@ -3,7 +3,7 @@ package bittorrent
 import (
 	"errors"
 
-	"github.com/clearcodecn/v2ray/common"
+	"github.com/clearcodecn/v2ray-core/common"
 )
 
 type SniffHeader struct {

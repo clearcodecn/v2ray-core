@@ -7,16 +7,16 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/clearcodecn/v2ray/common"
-	"github.com/clearcodecn/v2ray/common/serial"
-	"github.com/clearcodecn/v2ray/features"
-	"github.com/clearcodecn/v2ray/features/dns"
-	"github.com/clearcodecn/v2ray/features/dns/localdns"
-	"github.com/clearcodecn/v2ray/features/inbound"
-	"github.com/clearcodecn/v2ray/features/outbound"
-	"github.com/clearcodecn/v2ray/features/policy"
-	"github.com/clearcodecn/v2ray/features/routing"
-	"github.com/clearcodecn/v2ray/features/stats"
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/common/serial"
+	"github.com/clearcodecn/v2ray-core/features"
+	"github.com/clearcodecn/v2ray-core/features/dns"
+	"github.com/clearcodecn/v2ray-core/features/dns/localdns"
+	"github.com/clearcodecn/v2ray-core/features/inbound"
+	"github.com/clearcodecn/v2ray-core/features/outbound"
+	"github.com/clearcodecn/v2ray-core/features/policy"
+	"github.com/clearcodecn/v2ray-core/features/routing"
+	"github.com/clearcodecn/v2ray-core/features/stats"
 )
 
 // Server is an instance of V2Ray. At any time, there must be at most one Server instance running.

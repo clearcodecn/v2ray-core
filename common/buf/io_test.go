@@ -5,9 +5,9 @@ import (
 	"io"
 	"testing"
 
-	. "github.com/clearcodecn/v2ray/common/buf"
-	"github.com/clearcodecn/v2ray/common/net"
-	"github.com/clearcodecn/v2ray/testing/servers/tcp"
+	. "github.com/clearcodecn/v2ray-core/common/buf"
+	"github.com/clearcodecn/v2ray-core/common/net"
+	"github.com/clearcodecn/v2ray-core/testing/servers/tcp"
 )
 
 func TestWriterCreation(t *testing.T) {

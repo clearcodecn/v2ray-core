@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/clearcodecn/v2ray/common"
-	"github.com/clearcodecn/v2ray/testing/servers/tcp"
-	"github.com/clearcodecn/v2ray/transport/internet"
-	. "github.com/clearcodecn/v2ray/transport/internet/tcp"
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/testing/servers/tcp"
+	"github.com/clearcodecn/v2ray-core/transport/internet"
+	. "github.com/clearcodecn/v2ray-core/transport/internet/tcp"
 )
 
 func TestGetOriginalDestination(t *testing.T) {

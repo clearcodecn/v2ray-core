@@ -3,7 +3,7 @@ package protocol
 import (
 	"time"
 
-	"github.com/clearcodecn/v2ray/common/dice"
+	"github.com/clearcodecn/v2ray-core/common/dice"
 )
 
 type Timestamp int64

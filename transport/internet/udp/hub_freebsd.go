@@ -7,8 +7,8 @@ import (
 	"encoding/gob"
 	"io"
 
-	"github.com/clearcodecn/v2ray/common/net"
-	"github.com/clearcodecn/v2ray/transport/internet"
+	"github.com/clearcodecn/v2ray-core/common/net"
+	"github.com/clearcodecn/v2ray-core/transport/internet"
 )
 
 // RetrieveOriginalDest from stored laddr, caddr

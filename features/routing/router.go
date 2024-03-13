@@ -3,8 +3,8 @@ package routing
 import (
 	"context"
 
-	"github.com/clearcodecn/v2ray/common"
-	"github.com/clearcodecn/v2ray/features"
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/features"
 )
 
 // Router is a feature to choose an outbound tag for the given request.

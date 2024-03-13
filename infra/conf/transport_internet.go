@@ -5,17 +5,17 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/clearcodecn/v2ray/common/platform/filesystem"
-	"github.com/clearcodecn/v2ray/common/protocol"
-	"github.com/clearcodecn/v2ray/common/serial"
-	"github.com/clearcodecn/v2ray/transport/internet"
-	"github.com/clearcodecn/v2ray/transport/internet/domainsocket"
-	"github.com/clearcodecn/v2ray/transport/internet/http"
-	"github.com/clearcodecn/v2ray/transport/internet/kcp"
-	"github.com/clearcodecn/v2ray/transport/internet/quic"
-	"github.com/clearcodecn/v2ray/transport/internet/tcp"
-	"github.com/clearcodecn/v2ray/transport/internet/tls"
-	"github.com/clearcodecn/v2ray/transport/internet/websocket"
+	"github.com/clearcodecn/v2ray-core/common/platform/filesystem"
+	"github.com/clearcodecn/v2ray-core/common/protocol"
+	"github.com/clearcodecn/v2ray-core/common/serial"
+	"github.com/clearcodecn/v2ray-core/transport/internet"
+	"github.com/clearcodecn/v2ray-core/transport/internet/domainsocket"
+	"github.com/clearcodecn/v2ray-core/transport/internet/http"
+	"github.com/clearcodecn/v2ray-core/transport/internet/kcp"
+	"github.com/clearcodecn/v2ray-core/transport/internet/quic"
+	"github.com/clearcodecn/v2ray-core/transport/internet/tcp"
+	"github.com/clearcodecn/v2ray-core/transport/internet/tls"
+	"github.com/clearcodecn/v2ray-core/transport/internet/websocket"
 )
 
 var (

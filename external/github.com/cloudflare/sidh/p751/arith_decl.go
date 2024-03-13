@@ -3,7 +3,7 @@
 package p751
 
 import (
-	. "github.com/clearcodecn/v2ray/external/github.com/cloudflare/sidh/internal/isogeny"
+	. "github.com/clearcodecn/v2ray-core/external/github.com/cloudflare/sidh/internal/isogeny"
 )
 
 // If choice = 0, leave x,y unchanged. If choice = 1, set x,y = y,x.

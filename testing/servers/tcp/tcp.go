@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/clearcodecn/v2ray/common/buf"
-	"github.com/clearcodecn/v2ray/common/net"
-	"github.com/clearcodecn/v2ray/common/task"
-	"github.com/clearcodecn/v2ray/transport/internet"
-	"github.com/clearcodecn/v2ray/transport/pipe"
+	"github.com/clearcodecn/v2ray-core/common/buf"
+	"github.com/clearcodecn/v2ray-core/common/net"
+	"github.com/clearcodecn/v2ray-core/common/task"
+	"github.com/clearcodecn/v2ray-core/transport/internet"
+	"github.com/clearcodecn/v2ray-core/transport/pipe"
 )
 
 type Server struct {

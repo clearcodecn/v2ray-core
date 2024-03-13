@@ -1,8 +1,8 @@
 package udp
 
 import (
-	"github.com/clearcodecn/v2ray/common/buf"
-	"github.com/clearcodecn/v2ray/common/net"
+	"github.com/clearcodecn/v2ray-core/common/buf"
+	"github.com/clearcodecn/v2ray-core/common/net"
 )
 
 // Packet is a UDP packet together with its source and destination address.

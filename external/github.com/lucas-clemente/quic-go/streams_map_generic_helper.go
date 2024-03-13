@@ -1,9 +1,9 @@
 package quic
 
 import (
-	"github.com/clearcodecn/v2ray/external/github.com/cheekybits/genny/generic"
+	"github.com/clearcodecn/v2ray-core/external/github.com/cheekybits/genny/generic"
 
-	"github.com/clearcodecn/v2ray/external/github.com/lucas-clemente/quic-go/internal/protocol"
+	"github.com/clearcodecn/v2ray-core/external/github.com/lucas-clemente/quic-go/internal/protocol"
 )
 
 // In the auto-generated streams maps, we need to be able to close the streams.

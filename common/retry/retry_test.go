@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/clearcodecn/v2ray/common"
-	"github.com/clearcodecn/v2ray/common/errors"
-	. "github.com/clearcodecn/v2ray/common/retry"
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/common/errors"
+	. "github.com/clearcodecn/v2ray-core/common/retry"
 )
 
 var (

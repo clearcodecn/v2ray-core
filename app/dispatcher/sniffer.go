@@ -3,10 +3,10 @@
 package dispatcher
 
 import (
-	"github.com/clearcodecn/v2ray/common"
-	"github.com/clearcodecn/v2ray/common/protocol/bittorrent"
-	"github.com/clearcodecn/v2ray/common/protocol/http"
-	"github.com/clearcodecn/v2ray/common/protocol/tls"
+	"github.com/clearcodecn/v2ray-core/common"
+	"github.com/clearcodecn/v2ray-core/common/protocol/bittorrent"
+	"github.com/clearcodecn/v2ray-core/common/protocol/http"
+	"github.com/clearcodecn/v2ray-core/common/protocol/tls"
 )
 
 type SniffResult interface {

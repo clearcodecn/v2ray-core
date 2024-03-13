@@ -3,7 +3,7 @@ package json
 import (
 	"io"
 
-	"github.com/clearcodecn/v2ray/common/buf"
+	"github.com/clearcodecn/v2ray-core/common/buf"
 )
 
 // State is the internal state of parser.

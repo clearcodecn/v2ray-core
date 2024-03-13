@@ -4,7 +4,7 @@ package proxyman
 import (
 	"context"
 
-	"github.com/clearcodecn/v2ray/common/session"
+	"github.com/clearcodecn/v2ray-core/common/session"
 )
 
 // ContextWithSniffingConfig is a wrapper of session.ContextWithContent.

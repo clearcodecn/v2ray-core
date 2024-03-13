@@ -3,7 +3,7 @@ package pipe
 import (
 	"time"
 
-	"github.com/clearcodecn/v2ray/common/buf"
+	"github.com/clearcodecn/v2ray-core/common/buf"
 )
 
 // Reader is a buf.Reader that reads content from a pipe.

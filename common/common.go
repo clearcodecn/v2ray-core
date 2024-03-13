@@ -2,7 +2,7 @@
 // See each sub-package for detail.
 package common
 
-import "github.com/clearcodecn/v2ray/common/errors"
+import "github.com/clearcodecn/v2ray-core/common/errors"
 
 //go:generate errorgen
 
